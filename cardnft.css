@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    font-size: 14px;
+}
+
+.container1 {
+    position: relative;
+    top: 6px;
+    left: 77px;
+    width: 88vw;
+    height: 98vh;
+    background: hsl(217, 54%, 11%);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.25), -8px -8px 12px rgba(255, 255, 255, 0.3);
+}
+
+.container2 {
+    position: absolute;
+    left: 430px;
+    top: 60px;
+    width: 21.5vw;
+    height: 78vh;
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.head-image img {
+    position: relative;
+    top: 15px;
+    left: 17px;
+    width: 19vw;
+    height: 41vh;
+    border-radius: 10px;
+}
+
+.head-image img:active {
+    background-image: url("image/icon-view.svg");
+    
+}
+
+.main-text {
+    
+    padding: 2rem 1.2rem;
+}
+
+.main-text h3 {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.main-text h3 a {
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.main-text h3 a:active {
+    color: hsl(178, 100%, 50%);
+}
+
+.main-text p {
+    color: #9bacccb6;
+    font-size: 14px;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.text {
+    display: flex;
+    padding: 1.2rem;
+    margin-top: -1.8rem;
+}
+
+.text h5 {
+   margin-left: 1.1rem;
+   margin-top: -1.4rem;
+   color: hsl(178, 100%, 50%);
+}
+
+.days {
+    margin-left: 9rem;
+    margin-top: -0.2rem;
+    color: #9bacccb6;
+}
+
+.days img {
+    margin-left: -1.3rem;
+    margin-top: 0.2rem;
+}
+
+.days p {
+    margin-top: -1.5rem;
+    
+}
+
+.avatar {
+    padding: 1.2rem;
+    margin-top: 0.3rem;
+}
+
+.avatar img {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+
+.bio p {
+    margin-left: 4rem;
+    color: #9bacccb6;
+}
+
+.bio {
+    margin-top: -3rem;
+    margin-left: 0.2rem;
+}
+
+span {
+    color: #ffffff;
+}
+
+span a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+span a:active{
+    color: hsl(178, 100%, 50%);
+}
+
+.days p::after {
+    content: "";
+    position: absolute;
+    left: 17px;
+    bottom: 60px;
+    width: 19vw;
+    height: 0vh;
+    border: 0.5px solid hsl(215, 32%, 27%);
+    
+}
